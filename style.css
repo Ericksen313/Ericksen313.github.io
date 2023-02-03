@@ -1,0 +1,310 @@
+*{
+  font-family: arial;
+  color: #00000082;
+  
+}
+body{
+  background-color: #f7f7f791;
+  border-top-style: solid;
+  margin: 0px;
+  border-top-width: 0px;
+}
+
+/* navigasi bar */
+.navbar{
+  margin: 0 0;
+  padding: 0 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: #a4a4a480;
+  top: 0;
+  list-style: none;
+}
+
+.logo{
+  border-radius: 50%;
+}
+
+
+.menu{
+  display: flex;
+  gap: 2em;
+}
+.menu li{
+  text-decoration: none;
+  border-radius: 20px;
+  background-size: 20px;
+  border: 20px;
+}
+.menu li a{
+  text-decoration: none;
+  border: 20px;
+  background-size: 20px;
+  padding: 8px;
+}
+.menu li a:hover{
+  text-decoration: none;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 20px;
+  background-size: 20px;
+  border: 20px;
+}
+
+
+.search-form{
+  display: flex;
+  width: 35%;
+}
+.search{
+  display: flex;
+  border: 0px solid;
+  text-align: center;
+  width: 50%;
+  height: 25px;
+  /* background-color: rgba(0, 0, 0, 0.400); */
+  /* color: white; */
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: bold;
+}
+#search-form-img{
+  position: absolute;
+  width: 18px;
+  margin: 3px;
+}
+/* #search-form-img{
+  background-image: url(pictures/search.svg);
+  width: 25px;
+  background-color: white;
+  border: 0px solid;
+}
+#search-form-img:hover{
+  background-color: rgba(0, 0, 0, 0.400);
+} */
+/* input .button{
+  border: 0px solid;
+
+} */
+.menu-login{
+  display: flex;
+  gap: 1em;
+}
+.menu-login li a{
+  text-decoration: none;
+  padding: 8px;
+}
+
+.menu-login li a:hover{
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* main body */
+.main-body{
+  display: flex;
+}
+
+/* left sidebar */
+.left-sidebar{
+  display: grid;
+  margin: 20px;
+  margin-bottom: 800px;
+  position: fixed;
+}
+#img-circle{
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+#left-sidebar-start-discuss{
+  width: 10rem;
+  height: 45px;
+  background-color: rgb(255, 60, 60);
+  border-radius: 8px;
+  border: rgb(255, 50, 50);
+  font-family: 'IBM Plex Mono', monospace;
+  margin-bottom: 20px;
+}
+#left-sidebar-start-discuss-strong{
+  color: white;
+}
+#left-sidebar-start-discuss:hover{
+  background-color: rgba(0, 0, 0, 0.400);
+  border: black;
+  color: white;
+}
+
+#left-sidebar-all-discussions-link{
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.400);
+  text-align: left;
+  /* background-image: url(pictures/circle-filled.png); */
+}
+#left-sidebar-all-discussions-link:hover{
+  color: rgb(255, 60, 60);
+  border: 1px solid;
+}
+#left-sidebar-all-discussions-link:link{
+  color: rgba(0, 0, 0, 0.400);
+}
+#left-sidebar-all-discussions-link:active{
+  color: rgb(255, 60, 60);
+}
+
+#left-sidebar-tags-link{
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#left-sidebar-tags-link:hover{
+  color: rgb(255, 60, 60);
+  border: 1px solid;
+}
+#left-sidebar-tags-link:link{
+  color: rgba(0, 0, 0, 0.400);
+}
+#left-sidebar-tags-link:active{
+  color: rgb(255, 60, 60);
+}
+
+#left-sidebar-general-link{
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#left-sidebar-general-link:hover{
+  color: rgb(255, 60, 60);
+  border: 1px solid;
+}
+#left-sidebar-general-link:link{
+  color: rgba(0, 0, 0, 0.400);
+}
+#left-sidebar-general-link:active{
+  color: rgb(255, 60, 60);
+}
+
+#left-sidebar-programming-link{
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#left-sidebar-programming-link:hover{
+  color: rgb(255, 60, 60);
+  border: 1px solid;
+}
+#left-sidebar-programming-link:link{
+  color: rgba(0, 0, 0, 0.400);
+}
+#left-sidebar-programming-link:active{
+  color: rgb(255, 60, 60);
+}
+
+#left-sidebar-drawing-link{
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#left-sidebar-drawing-link:hover{
+  color: rgb(255, 60, 60);
+  border: 1px solid;
+}
+#left-sidebar-drawing-link:link{
+  color: rgba(0, 0, 0, 0.400);
+}
+#left-sidebar-drawing-link:active{
+  color: rgb(255, 60, 60);
+}
+
+#left-sidebar-anime-link{
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#left-sidebar-anime-link:hover{
+  color: rgb(255, 60, 60);
+  border: 1px solid;
+}
+#left-sidebar-anime-link:link{
+  color: rgba(0, 0, 0, 0.400);
+}
+#left-sidebar-anime-link:active{
+  color: rgb(255, 60, 60);
+}
+
+
+/* main body content */
+.main-body-content{
+  padding: 0 150px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.discussion{
+  display: grid;
+}
+.discuss{
+  text-align: left;
+  padding-bottom: 20px;
+}
+#discord-icon{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#discuss-title{
+  color: rgba(0, 0, 0, 0.700);
+  text-decoration: none;
+  font-size: 16px;
+}
+#discuss-title:hover{
+  text-decoration: underline;
+}
+#discuss-desc{
+  font-size: 15px;
+}
+th{
+  font-size: 18px;
+}
+
+h1{
+  font-weight: bold;
+}
+.kotak-pendaftaran{
+  background-color: #000000bf;
+  color: white;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+}
+/* -------------- */
