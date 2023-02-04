@@ -1,7 +1,7 @@
-*{
+* {
   font-family: arial;
   color: #00000082;
-  
+  box-sizing: border-box;
 }
 body{
   background-color: #f7f7f791;
@@ -19,9 +19,10 @@ body{
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  background-color: #a4a4a480;
+  background-color: white;
   top: 0;
   list-style: none;
+  box-shadow: 0px 0px 3px black;
 }
 
 .logo{
@@ -32,6 +33,8 @@ body{
 .menu{
   display: flex;
   gap: 2em;
+  /* font-weight: bold; */
+  color: rgba(98,121,152,255);
 }
 .menu li{
   text-decoration: none;
@@ -44,15 +47,17 @@ body{
   border: 20px;
   background-size: 20px;
   padding: 8px;
+  font-size: 15px;
 }
 .menu li a:hover{
   text-decoration: none;
-  background-color: white;
+  /* background-color: rgba(98,121,152,255); */
+  border-color: rgba(98,121,152,255);
   transition: 0.3s;
   cursor: pointer;
   border-radius: 20px;
   background-size: 20px;
-  border: 20px;
+  border: 1px solid;
 }
 
 
@@ -66,8 +71,8 @@ body{
   text-align: center;
   width: 50%;
   height: 25px;
-  /* background-color: rgba(0, 0, 0, 0.400); */
-  /* color: white; */
+  background-color: rgba(232,236,243,255);
+  color: rgba(98,121,152,255);
   font-family: 'IBM Plex Mono', monospace;
   font-size: 13px;
   font-weight: bold;
@@ -100,7 +105,9 @@ body{
 }
 
 .menu-login li a:hover{
-  background-color: white;
+  /* background-color: white; */
+  border: 1px solid;
+  border-color: rgba(98,121,152,255);
   transition: 0.5s;
   cursor: pointer;
   border-radius: 20px;
@@ -109,6 +116,7 @@ body{
 /* main body */
 .main-body{
   display: flex;
+  background-color: white;
 }
 
 /* left sidebar */
@@ -157,9 +165,9 @@ body{
   color: rgb(255, 60, 60);
   border: 1px solid;
 }
-#left-sidebar-all-discussions-link:link{
+/* #left-sidebar-all-discussions-link:link{
   color: rgba(0, 0, 0, 0.400);
-}
+} */
 #left-sidebar-all-discussions-link:active{
   color: rgb(255, 60, 60);
 }
@@ -177,9 +185,9 @@ body{
   color: rgb(255, 60, 60);
   border: 1px solid;
 }
-#left-sidebar-tags-link:link{
+/* #left-sidebar-tags-link:link{
   color: rgba(0, 0, 0, 0.400);
-}
+} */
 #left-sidebar-tags-link:active{
   color: rgb(255, 60, 60);
 }
@@ -197,9 +205,9 @@ body{
   color: rgb(255, 60, 60);
   border: 1px solid;
 }
-#left-sidebar-general-link:link{
+/* #left-sidebar-general-link:link{
   color: rgba(0, 0, 0, 0.400);
-}
+} */
 #left-sidebar-general-link:active{
   color: rgb(255, 60, 60);
 }
@@ -217,9 +225,9 @@ body{
   color: rgb(255, 60, 60);
   border: 1px solid;
 }
-#left-sidebar-programming-link:link{
+/* #left-sidebar-programming-link:link{
   color: rgba(0, 0, 0, 0.400);
-}
+} */
 #left-sidebar-programming-link:active{
   color: rgb(255, 60, 60);
 }
@@ -237,9 +245,9 @@ body{
   color: rgb(255, 60, 60);
   border: 1px solid;
 }
-#left-sidebar-drawing-link:link{
+/* #left-sidebar-drawing-link:link{
   color: rgba(0, 0, 0, 0.400);
-}
+} */
 #left-sidebar-drawing-link:active{
   color: rgb(255, 60, 60);
 }
@@ -257,9 +265,9 @@ body{
   color: rgb(255, 60, 60);
   border: 1px solid;
 }
-#left-sidebar-anime-link:link{
+/* #left-sidebar-anime-link:link{
   color: rgba(0, 0, 0, 0.400);
-}
+} */
 #left-sidebar-anime-link:active{
   color: rgb(255, 60, 60);
 }
@@ -295,6 +303,8 @@ body{
 }
 th{
   font-size: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 h1{
